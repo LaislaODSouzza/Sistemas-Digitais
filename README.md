@@ -1,4 +1,4 @@
-# Sistemas-Digitais: Contador Síncrono de 8 Bits com Decodificação Hexadecimal para Displays de 7 Segmentos
+# Lab-Sistemas-Digitais: Contador Síncrono de 8 Bits com Decodificação Hexadecimal para Displays de 7 Segmentos
 Código em Verilog feito nas aulas de laboratório da matéria de Sistemas Digitais pela Universidade Federal de Sergipe (UFS).
 
 ## 1. Descrição do Projeto
