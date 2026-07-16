@@ -67,3 +67,5 @@ A compilação e o mapeamento tecnológico do circuito na arquitetura alvo gerar
 * **Elementos de Armazenamento**: A alocação exata de 8 instâncias da primitiva sequencial `DFFRSE` (Flip-Flops Tipo D com propriedades de Set/Reset, localizado no lado inferior direito da tabela) comprova a correta inferência do registrador de deslocamento de 8 bits projetado em nível comportamental.
 * **Mapeamento de Células Lógicas**: O arranjo combinacional exibe uma predominância das portas universais `NAND2` (45) e `NOR2` (14). Isso evidencia o algoritmo de síntese otimizando e simplificando as expressões booleanas originais em estruturas semicondutoras de eficiência de área.
 * **Consumo de Hardware**: O circuito completo demandou apenas **7,86%** da matriz de transistores disponível no chip simulado da placa Pitanga, atestando uma implementação compacta e otimizada para sistemas digitais embarcados de baixo consumo.
+
+*Desenvolvido por Laísla Souza.*
