@@ -68,4 +68,4 @@ A compilação e o mapeamento tecnológico do circuito na arquitetura alvo gerar
 * **Mapeamento de Células Lógicas**: O arranjo combinacional exibe uma predominância das portas universais `NAND2` (45) e `NOR2` (14). Isso evidencia o algoritmo de síntese otimizando e simplificando as expressões booleanas originais em estruturas semicondutoras de eficiência de área.
 * **Consumo de Hardware**: O circuito completo demandou apenas **7,86%** da matriz de transistores disponível no chip simulado da placa Pitanga, atestando uma implementação compacta e otimizada para sistemas digitais embarcados de baixo consumo.
 
-*Desenvolvido por Laísla Souza.*
+*Desenvolvido por Laísla Oliveira.*
