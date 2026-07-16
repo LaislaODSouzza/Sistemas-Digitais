@@ -22,7 +22,7 @@ O sistema foi estruturado de forma modular, dividindo-se em três blocos funcion
 
 O circuito foi submetido a duas abordagens distintas de estímulo temporal no arquivo de mapeamento físico de terminais (`pitanga.pinout`):
 
-### Variação A: Estímulo por Botão Manual (`clk_pitanga = btn1`)
+### Variação A: Estímulo por Botão Manual (`clk_pit = btn1`)
 * **Mapeamento de Pinos**: O clock do contador é ligado diretamente para o terminal físico do botão `btn1`.
 * **Dinâmica do Hardware**: O incremento do acumulador ocorre de maneira assíncrona em relação ao tempo real, reagindo exclusivamente aos eventos mecânicos. Cada pressionamento do usuário força uma borda de subida (`posedge`), avançando o estado interno do contador em exatamente uma unidade.
 * **Comportamento Prático**: Permite verificar de forma controlada a transição bit a bit do barramento de LEDs e inspecionar as curvas lógica do decodificador `dec7seg` em caracteres críticos (como a transição de `09` para `0A`).
